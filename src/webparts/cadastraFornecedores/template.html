@@ -1,0 +1,110 @@
+<section id="formFornecedor" class="formPadrao">
+  <div class="row">
+    <div id="Tabs" class="col-md-12">
+      <ul id="tabsJustified" class="nav nav-tabs">
+        <li id="tabDetalhes" class="nav-item"><a href="#" data-target="#Detalhes" data-toggle="tab" class="nav-link small text-uppercase active">Detalhes</a></li>
+        <li id="tabEndereco" class="nav-item"><a href="#" data-target="#Endereco" data-toggle="tab" class="nav-link small text-uppercase">Endereço</a></li>
+      </ul>
+      <div id="tabsJustifiedContent" class="tab-content">
+        <div id="Detalhes" class="tab-pane fade show active">
+          <div class="row" id="divPrincipal">
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Razão Social:</label></div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtRazaoSocial" class="form-control mb-4" placeholder="Razão Social">
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">País:</label>
+            </div>
+            <div class="col-md-5 ">
+              <select id="ddlPaises" class="browser-default custom-select mb-4">
+              </select>
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Empresa Parceira:</label>
+            </div>
+            <div class="col-md-5 ">
+              <select id="ddlEmpresa" class="browser-default custom-select mb-4">
+              </select>
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">CNPJ:</label>
+            </div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtCNPJ" class="form-control mb-4" placeholder="CNPJ">
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Telefone:</label>
+            </div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtTelefone" class="form-control mb-4" placeholder="Telefone">
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Email:</label>
+            </div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtEmail" class="form-control mb-4" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="row rodapeForm" id="divBotoes">
+            <button id="btnSalvar" class="btn btnPadrao" type="submit"><i class="far fa-save"></i>
+              Salvar</button>
+            <button id="btnExcluir" class="btn btn-danger ml-2" type="submit"><i class="fa fa-trash"></i>
+                Apagar</button>
+          </div>
+        </div>
+        <div id="Endereco" class="tab-pane fade">
+          <div class="row" id="divEndereco">
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Endereço:</label></div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtEndereco" class="form-control mb-4" placeholder="Av. Afonso Pena, 125">
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Cidade:</label>
+            </div>
+            <div class="col-md-5 ">
+              <input type="text" id="txtCidade" class="form-control mb-4" placeholder="Belo Horizonte">
+            </div>
+            <div class="col-md-1 labelDesc">
+              <label class="control-label">Estado:</label>
+            </div>
+            <div class="col-md-5 ">
+              <select id="ddlEstado" class="browser-default custom-select mb-4">
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>

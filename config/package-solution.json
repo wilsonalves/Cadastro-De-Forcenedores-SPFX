@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fornecedores-client-side-solution",
+    "id": "6bb649c1-0284-4077-b863-fa53bd65f006",
+    "version": "1.2.3.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/fornecedores.sppkg"
+  }
+}

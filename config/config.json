@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cadastra-fornecedores-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastraFornecedores/CadastraFornecedoresWebPart.js",
+          "manifest": "./src/webparts/cadastraFornecedores/CadastraFornecedoresWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CadastraFornecedoresWebPartStrings": "lib/webparts/cadastraFornecedores/loc/{locale}.js"
+  }
+}
